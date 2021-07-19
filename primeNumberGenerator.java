@@ -17,7 +17,7 @@ public class primeNumberGenerator {
         int tryNumber;
 
         for(numberOfPrimeNumbersInArray = 1; numberOfPrimeNumbersInArray < numberOfPrimeNumbers;){
-            for(tryNumber = 2;tryNumber<=testNumber && numberOfPrimeNumbersInArray<numberOfPrimeNumbers;tryNumber++){
+            for(tryNumber = 2;tryNumber<=testNumber;tryNumber++){
                 if((testNumber%tryNumber) == 0){
                     testNumber++;
                     break;
